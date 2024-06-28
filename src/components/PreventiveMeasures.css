@@ -1,0 +1,44 @@
+.emergency-title {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    text-align: center;
+    color: #2ca4aa;
+  }
+  
+  .preventive-measures-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .preventive-measures-item {
+    margin-bottom: 1em;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s ease;
+  }
+  
+  .preventive-measures-item:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .preventive-measures-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .toggle-icon {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .preventive-measures-content {
+    margin-top: 0.5em;
+    font-size: 1em;
+    line-height: 1.5;
+  }
+  

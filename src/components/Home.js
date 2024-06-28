@@ -33,7 +33,6 @@ const Home = () => {
 
       <div className="cta-container">
         <button className="cta-button">Sign Up Now</button>
-        <button className="cta-button">Learn More</button>
       </div>
 
       <footer className="footer">
