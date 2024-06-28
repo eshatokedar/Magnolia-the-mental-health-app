@@ -1,0 +1,19 @@
+.navbar {
+    padding: 1.75em;
+  }
+  
+  .nav-link {
+    margin: 0 1em;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    background-color: #2caeb8;
+    padding: 1rem;
+    border-radius: 2rem;
+  }
+  
+  .nav-link:hover {
+    color: #17130d;
+    /* text-decoration: underline; */
+  }
+  
