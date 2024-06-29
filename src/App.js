@@ -1,13 +1,16 @@
-import React from 'react';
+import React,{useState} from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css'; 
 import Home from './components/Home';
 import Emergency from './components/Emergency';
 import Navbar from './components/Navbar';
-import Therapists from './components/Therapists';
+import TherapistLists from './components/TherapistLists';
 import MoodCheckIn from './components/MoodCheckIn';
 
 function App() {
+
+  const [showMoodCheckIn, setShowMoodCheckIn] = useState(false);
+
   return (
     <Router>
       <div className="app-container">
@@ -16,8 +19,9 @@ function App() {
         <Route path="/" element={<Home/>} />
         <Route path="/emergency" element={<Emergency/>} />
         <Route path="/assessment" element={<MoodCheckIn/>} />
-        <Route path="/therapists" element={<Therapists/>} />
+        <Route path="/therapists" element={<TherapistLists/>} />
         </Routes>
+        {showMoodCheckIn && <MoodCheckIn onClose={() => setShowMoodCheckIn(false)} />}
       </div>
     </Router>
   );
