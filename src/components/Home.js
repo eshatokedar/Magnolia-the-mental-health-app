@@ -10,7 +10,9 @@ const Home = () => {
       </div>
       <img
         className="hero-banner"
-        src="https://brainandspinecenterllc.com/wp-content/uploads/2024/02/20240212_BS_MentalHealthNeurology-Blog_Tile.jpg"
+        // src="https://brainandspinecenterllc.com/wp-content/uploads/2024/02/20240212_BS_MentalHealthNeurology-Blog_Tile.jpg"
+        src="https://www.fcsok.org/wp-content/uploads/2023/05/wp_interactivebanner_May-scaled.jpg"
+        
         alt="World Mental Health Day"
       />
       <div className="features-container">
