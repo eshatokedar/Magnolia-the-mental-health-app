@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 .app-container {
   font-family: "Playwrite DE Grund", cursive;
   text-align: center;
