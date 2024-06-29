@@ -263,7 +263,7 @@ const locations = [
   'Jaipur', 'Lucknow'
 ];
 
-const Connect = () => {
+const Therapists = () => {
   const [selectedLocation, setSelectedLocation] = useState('');
   const [filteredDoctors, setFilteredDoctors] = useState([]);
 
@@ -325,7 +325,7 @@ const Connect = () => {
   )
 };
 
-export default Connect;
+export default Therapists;
 
 
 

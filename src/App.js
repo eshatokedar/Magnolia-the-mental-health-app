@@ -4,7 +4,8 @@ import './App.css';
 import Home from './components/Home';
 import Emergency from './components/Emergency';
 import Navbar from './components/Navbar';
-import Connect from './components/Connect';
+import Therapists from './components/Therapists';
+import MoodCheckIn from './components/MoodCheckIn';
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
         <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/emergency" element={<Emergency/>} />
-        <Route path="/connect" element={<Connect/>} />
+        <Route path="/assessment" element={<MoodCheckIn/>} />
+        <Route path="/therapists" element={<Therapists/>} />
         </Routes>
       </div>
     </Router>
