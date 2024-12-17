@@ -46,10 +46,7 @@ realize their full potential, cope with the stresses of life, work productively 
         </div>
       </div>
 
-      <div className="cta-container">
-        <button className="cta-button">Sign Up Now</button>
-      </div>
-
+     
       <footer className="footer">
         <p>&copy; 2024 Mental Health App. All rights reserved.</p>
         <div className="footer-links">
